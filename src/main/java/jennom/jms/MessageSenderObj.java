@@ -1,14 +1,11 @@
 package jennom.jms;
 
 import com.google.gson.Gson;
-import java.util.Date;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
-import jennom.iface.ISDTF;
 import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.jms.core.JmsTemplate;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 @Component("objSender")
